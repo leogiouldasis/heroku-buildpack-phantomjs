@@ -9,8 +9,8 @@ CACHE_DIR=$2
 VERSION="1.9.20"
 
 # Buildpack URL
-ARCHIVE_NAME=phantomjs-${VERSION}-linux-x86_64
-FILE_NAME=${ARCHIVE_NAME}.tar.bz2
+ARCHIVE_NAME=v1.9.20
+FILE_NAME=${ARCHIVE_NAME}.tar.gz
 BUILDPACK_PHANTOMJS_PACKAGE=https://github.com/Medium/phantomjs/archive/v1.9.20.tar.gz
 
 mkdir -p $CACHE_DIR
